@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Secrets and environment files
 .env
 .env.*
@@ -35,11 +36,23 @@ dist/
 *.bak
 *.bak_*
 *.broken_*
+=======
+
+# Temporary backups and debug logs
+*.bak
+*.bak_*
+*.broken_*
+*.log
+>>>>>>> d7237b33f48c8aa41f1c76732cfb6876de2c53e2
 server_err.txt
 server_log.txt
 desktop.ini
 
+<<<<<<< HEAD
 # Local database files
+=======
+# Local test databases and backups
+>>>>>>> d7237b33f48c8aa41f1c76732cfb6876de2c53e2
 *.db
 *.sqlite
 *.sqlite3
